@@ -155,20 +155,19 @@ The algorithms were evaluated on the held-out test split (79 unseen student reco
 
 ---
 
-## 💻 Application Features & Screenshots
+## 💻 Application Features & Single-Page Dashboard
 
-- **🏠 Home & Overview**: Project orientation, dataset KPIs, core objectives, and methodology highlights.
-- **🎯 Student Prediction Form**: 
-  - Organized inputs into 6 intuitive card sections.
-  - Interactive preset profile buttons: *High Achiever*, *Average Student*, *At-Risk Student*, and *Reset*.
-  - Real-time Plotly visual gauge with color-coded performance tiers.
-  - Diagnostic feedback identifying positive drivers and risk factors.
-- **📊 Analytics Dashboard**:
-  - Interactive Plotly actual-vs-predicted scatter plot with hover tooltips.
-  - Interactive feature importance bar chart.
-  - Error histogram with $\pm\text{MAE}$ boundary lines.
-  - Grade tier error breakdown (0–5, 6–10, 11–15, 16–20).
-- **📖 About Project**: Complete background documentation, mathematical formulation, and academic transparency notes.
+The application has been unified into a **clean, focused, single-page executive dashboard**:
+- **📊 Top KPI Metrics Bar**: Real-time display of Test MAE (`2.998`), Variance $R^2$ Score (`0.298`), Dataset Size (`395`), and Feature Dimensions (`30`).
+- **⚡ Student Grade Predictor**:
+  - One-click instant presets: **Top Achiever**, **Average Student**, **At Risk**, and **Reset**.
+  - Clean organized input controls covering all 30 model features.
+  - Real-time prediction card with Portuguese grade tier classification (Distinction, Good, Pass, Needs Help) and visual indicator.
+- **📈 Live Academic Analytics**:
+  - **Feature Drivers**: Interactive Plotly bar chart ranking the top 10 most influential predictors.
+  - **Actual vs Predicted**: Scatter plot on 79 held-out test students with ideal parity reference line.
+  - **Grade Distributions**: Box plots demonstrating study time vs. final grade distributions.
+- **Zero Clutter**: Unified single-page view designed specifically for portfolio presentations, college viva defense, and quick demos.
 
 ---
 
@@ -283,3 +282,4 @@ This repository is optimized for one-click deployment on [Streamlit Community Cl
 
 ---
 *Developed for academic mini-project demonstration and portfolio showcase.*
+
